@@ -1,0 +1,21 @@
+Step 2
+
+extraLargeArray
+insert: 1.010505719 s
+append: 6.681483 ms
+
+tinyArray
+insert 52.994 μs
+append 96.47 μs
+
+mediumArray
+insert 187.905 μs
+append 160.321 μs
+
+largeArray
+insert 6.737192 ms
+append 633.335 μs
+
+The doublerAppend function scales better because it runs faster.
+
+I see a pattern that most of the time, append function is faster. It’s because adding index(es) with .push method to the end of the array is easier and faster than adding index(es) at the front of the array (.unshift) that requires the other indexes to be moved certain steps to the right in order to give space(s) for the new index(es). The only time I see that append is slower is on the tinyArray function. I assume it’s because of the length that is relatively short. 

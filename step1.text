@@ -1,0 +1,18 @@
+Step 1
+
+Tool for CI
+GitLab
+- Allows us to trigger builds, run test, and deploy code with each commit or push.
+- View, create, and manage codes and project data through branching tools.
+- Provides a single source of truth and scalability for collaborating on projects and code. 
+- Design, develop, and manage codes and project data from a single distributed version control system.
+- Atomate the builds, integration, and verification of source code.
+- Link: https://about.gitlab.com/
+
+Tool for monitoring
+Sentry
+- One of most popular tool for monitoring.
+- See stack traces, user context, release data, and preceding events.
+- Key features include: custom queries, dashboard, cross-project issues, distributed tracing, stack traces, context, breadcrumbs, releases, issue owners.
+- Sandbox available.
+- Link: https://sentry.io/welcome/
